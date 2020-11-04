@@ -26,59 +26,28 @@
 			"KOK": [
 				{
 					"direction": "EVEN",
-					"max_fl": 290,
-					"airways": [
-						"UL610"
-					],
+					"max_fl": 215,
 					"destinations": [
-						"EGKK"
-					],
-					"engine": [ "P", "T", "J", "E" ]
-				},
-				{
-					"direction": "EVEN",
-					"max_fl": 390,
-					"destination": [
-						"EGLL",
-						"EGWU"
-					],
-					"airways": [
-						"UL608"
-					],
-					"engine": [ "P", "T", "J", "E" ]
-				},
-				{
-					"direction": "EVEN",
-					"max_fl": 280,
-					"airway": [
-						"UL608"
-					],
-					"destinations": [
-						"EGSS",
 						"EGGW",
-						"EGSC",
-						"EGSH",
-						"EGLC",
 						"EGKB",
+						"EGLC",
 						"EGMC",
+						"EGSC",
+						"EGSS",
+						"EGTC",
 						"EGTO"
 					],
 					"engine": [ "P", "T", "J", "E" ]
 				},
 				{
 					"direction": "EVEN",
-					"min_fl": 195,
-					"airways": [
-						"UL607"
-					],
-					"engine": [ "P", "T", "J", "E" ]
-				},
-				{
-					"direction": "EVEN",
-					"min_fl": 45,
-					"max_fl": 195,
-					"airways": [
-						"L607"
+					"max_fl": 245,
+					"destinations": [
+						"EGLL",
+						"EGVA",
+						"EGVN",
+						"EGWU",
+						"EGBJ"
 					],
 					"engine": [ "P", "T", "J", "E" ]
 				},
@@ -108,18 +77,6 @@
 					"max_fl": 245,
 					"destinations": [
 						"EGLL",
-						"EGVA",
-						"EGVN",
-						"EGWU",
-						"EGBJ"
-					],
-					"engine": [ "P", "T", "J", "E" ]
-				},
-				{
-					"direction": "EVEN",
-					"max_fl": 245,
-					"destinations": [
-
 						"EGVA",
 						"EGVN",
 						"EGWU",
