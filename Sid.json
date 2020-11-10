@@ -176,6 +176,32 @@
 			"ELSIK": [
 				{
 					"direction": "ODD",
+					"max_fl": 170,
+					"destinations": [
+						"EDFH"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
+					"max_fl": 110,
+					"destinations": [
+						"ETAD"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
+					"max_fl": 230,
+					"destinations": [
+						"EDDF",
+						"EDFE",
+						"EDFM"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
