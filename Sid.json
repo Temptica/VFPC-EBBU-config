@@ -5,8 +5,10 @@
 			"LNO": [
 				{
 					"direction": "ODD",
-					"engine": ["P","T","J","E"]
+					"forbidden_fls": [ "250" ],
+					"engine": [ "P", "T", "J", "E" ]
 				}
+
 			],
 			"CIV": [
 				{
@@ -20,13 +22,12 @@
 				},
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"KOK": [
 				{
-					"direction": "EVEN",
-					"max_fl": 215,
 					"destinations": [
 						"EGGW",
 						"EGKB",
@@ -35,31 +36,24 @@
 						"EGSC",
 						"EGSS",
 						"EGTC",
-						"EGTO"
-					],
-					"engine": [ "P", "T", "J", "E" ]
-				},
-				{
-					"direction": "EVEN",
-					"max_fl": 245,
-					"destinations": [
+						"EGTO",
 						"EGLL",
 						"EGVA",
 						"EGVN",
 						"EGWU",
 						"EGBJ"
-					],
-					"engine": [ "P", "T", "J", "E" ]
+					]
 				},
 				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"HELEN": [
 				{
 					"direction": "EVEN",
-					"max_fl": 215,
+					"max_fl": 200,
 					"destinations": [
 						"EGGW",
 						"EGKB",
@@ -74,7 +68,7 @@
 				},
 				{
 					"direction": "EVEN",
-					"max_fl": 245,
+					"max_fl": 240,
 					"destinations": [
 						"EGLL",
 						"EGVA",
@@ -86,31 +80,65 @@
 				},
 				{
 					"direction": "EVEN",
-					"max_fl": 140,
-					"min_fl": 140,
+					"max_fl": 240,
 					"destinations": [
-						"EHAM"
-					],
-					"engine": [ "P", "T", "J", "E" ]
-				},
-				{
-					"direction": "ODD",
-					"airways": [
-						"N873",
-						"Z708",
-						"T606"
+						"EGLL",
+						"EGVA",
+						"EGVN",
+						"EGWU",
+						"EGBJ"
 					],
 					"engine": [ "P", "T", "J", "E" ]
 				},
 				{
 					"direction": "EVEN",
+					"max_fl": 240,
+					"destinations": [
+						"EGKK"
+					],
+					"airways": [
+						"L610"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "EVEN",
+					"destinations": [
+						"EGKK"
+					]
+				},
+				{
+					"direction": "EVEN",
+					"max_fl": 140,
+					"min_fl": 140,
+					"destinations": [
+						"EHAM",
+						"EHBD",
+						"EHEH",
+						"EHLE"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
+					"airways": [
+						"Y28",
+						"N873",
+						"T604"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"DENUT": [
 				{
 					"direction": "EVEN",
-					"max_fl": 215,
+					"max_fl": 200,
 					"destinations": [
 						"EGGW",
 						"EGKB",
@@ -125,7 +153,7 @@
 				},
 				{
 					"direction": "EVEN",
-					"max_fl": 245,
+					"max_fl": 240,
 					"destinations": [
 						"EGLL",
 						"EGVA",
@@ -146,21 +174,33 @@
 				},
 				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"NIK": [
 				{
 					"direction": "EVEN",
-					"max_fl": 140,
-					"min_fl": 140,
 					"destinations": [
-						"EHAM"
-					],
-					"engine": [ "P", "T", "J", "E" ]
+						"EHAM",
+						"EGGW",
+						"EGKB",
+						"EGLC",
+						"EGMC",
+						"EGSC",
+						"EGSS",
+						"EGTC",
+						"EGTO",
+						"EGLL",
+						"EGVA",
+						"EGVN",
+						"EGWU",
+						"EGBJ"
+					]
 				},
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"airways": [
 						"N873",
 						"Z708",
@@ -170,6 +210,7 @@
 				},
 				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
@@ -202,30 +243,56 @@
 				},
 				{
 					"direction": "ODD",
+					"max_fl": 210,
+					"destinations": [
+						"EDDL"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
+					"max_fl": 170,
+					"destinations": [
+						"EDDK"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"SPI": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
+					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"PITES": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"ROUSY": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"SOPOK": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			]
@@ -237,24 +304,37 @@
 			"RAPOR": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"MMD": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"ASMOX": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"DIK": [
 				{
+					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
+					"airways": [
+						"N853",
+						"M150"
+					],
+					"engine": [ "P", "T", "J", "E" ]
+				},
+				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 
@@ -262,12 +342,14 @@
 			"EXCOS": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"GTQ": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			]
@@ -279,6 +361,7 @@
 			"PUTTY": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"airways": [
 						"N873",
 						"Z708",
@@ -288,12 +371,14 @@
 				},
 				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				}
 			],
 			"NIK": [
 				{
 					"direction": "ODD",
+					"forbidden_fls": [ "250" ],
 					"airways": [
 						"N873",
 						"Z708",
@@ -303,6 +388,7 @@
 				},
 				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"engine": [ "P", "T", "J", "E" ]
 				},
 				{
@@ -332,6 +418,7 @@
 				},
 				{
 					"direction": "EVEN",
+					"forbidden_fls": [ "250" ],
 					"max_fl": 315,
 					"destinations": [
 						"EGNT",
@@ -341,17 +428,20 @@
 			],
 			"SONDI": [
 				{
-					"directions":  "ODD"
+					"directions": "ODD",
+					"forbidden_fls": [ "250" ]
 				}
 			],
 			"BUN": [
 				{
-					"directions": "ODD"
+					"directions": "ODD",
+					"forbidden_fls": [ "250" ]
 				}
 			],
 			"GILOM": [
 				{
-					"directions": "ODD"
+					"directions": "ODD",
+					"forbidden_fls": [ "250" ]
 				}
 			]
 		}
